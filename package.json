@@ -29,6 +29,9 @@
     "start": "snowpack dev",
     "test": "mocha"
   },
+  "dependencies": {
+    "jsqr": "^1.4.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.0",
     "@babel/plugin-transform-runtime": "^7.17.0",

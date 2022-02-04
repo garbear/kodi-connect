@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+  <head>
+    <title>Kodi Connect</title>
+
+    <meta charset="UTF-8" />
+
+    <!--
+      TODO: Implement viewporting
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no minimal-ui"/>
+    -->
+
+    <!--
+      Link the favicon
+    -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!--
+      Link the style sheet
+    -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!--
+      UI
+    -->
+    <div id="displayArea">
+      <div id="verticallyCentered">
+        <div id="horizontallyCentered">
+          <a id="contentArea">
+            <img id="kodiLogo" src="images/kodi_logo.png" />
+            <h2>Connect</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      Rendering
+    -->
+    <video id="videoPreview"></video>
+
+    <!--
+      Entry point of the code
+    -->
+    <script type="module" src="_dist_/index.js"></script>
+  </body>
+</html>

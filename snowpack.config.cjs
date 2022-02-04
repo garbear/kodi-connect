@@ -50,7 +50,7 @@ module.exports = {
   },
   packageOptions: {
     sourceMap: true,
-    knownEntrypoints: [],
+    knownEntrypoints: ["jsqr"],
     rollup: {
       plugins: [
         // Fix "Uncaught TypeError: bufferEs6.hasOwnProperty is not a function"
